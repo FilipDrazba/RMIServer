@@ -1,4 +1,4 @@
-package pl.edu.pb.wi.fd;
+package rmi;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;

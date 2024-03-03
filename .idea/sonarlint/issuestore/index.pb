@@ -1,5 +1,21 @@
 
-W
-'src/main/java/pl/edu/pb/wi/fd/Main.java,8/6/868cbbf956a1fbb8c0f4f47d42c2720d8ca1fd90
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+?
+security.policy,b/4/b4bc80d3f427c7d2e7fb403008548fe65054cf4b
+_
+/src/main/java/pl/edu/pb/wi/fd/MyServerImpl.java,a/c/ac3d235e2d67e6cfba4191b8fa168e2a89aad644
+^
+.src/main/java/pl/edu/pb/wi/fd/MyServerInt.java,e/1/e10460fe20b3d582d13381488163009efebbdd44
+_
+/src/main/java/pl/edu/pb/wi/fd/MyServerMain.java,9/4/94e3c812f5c27ca0182948d86182c012c621a5ca
+S
+#src/main/java/rmi/MyServerMain.java,4/a/4a7cf2a76aebdae8738d0a8b79d6835e193b5687
+S
+#src/main/java/rmi/MyServerImpl.java,9/8/985d6aa69a7931f6a5176569a1baf39be5d7ca16
+R
+"src/main/java/rmi/MyServerInt.java,e/4/e43472d17303b4e591032cfa1bcd6f82abb26078
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e

@@ -16,4 +16,10 @@ public class MyServerImpl extends UnicastRemoteObject implements MyServerInt {
         System.out.println("MyServerImpl.getDescription: " + text + " " + i);
         return "getDescription: " + text + " " + i;
     }
+
+    @Override
+    public Double add(Double firstValue, Double secondValue) throws RemoteException{
+        i++;
+        return firstValue+secondValue;
+    }
 }

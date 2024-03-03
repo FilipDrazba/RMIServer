@@ -1,4 +1,4 @@
-package pl.edu.pb.wi.fd;
+package rmi;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -18,8 +18,10 @@ public class MyServerImpl extends UnicastRemoteObject implements MyServerInt {
     }
 
     @Override
-    public Double add(Double firstValue, Double secondValue) throws RemoteException{
+    public Double add(Double firstValue, Double secondValue) throws RemoteException {
         i++;
-        return firstValue+secondValue;
+        Double result = firstValue + secondValue;
+        System.out.println("Add " + firstValue + " + " + secondValue + " = " + result);
+        return result;
     }
 }
