@@ -19,3 +19,9 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+[
++src/main/java/pl/edu/pb/wi/fd/Database.java,2/e/2eb66126eff4038b632849abe2ea54e77783c7c1
+^
+.src/main/java/pl/edu/pb/wi/fd/IConnection.java,7/d/7d57067d2d39e279ebc8e2a46e0a39fb1cf46e80
+V
+&src/main/java/pl/edu/pb/wi/fd/Car.java,c/c/ccc98a92399d5d9dd52363f6952a7449a244797a

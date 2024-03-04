@@ -2,24 +2,25 @@ package pl.edu.pb.wi.fd;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.List;
 
 public class MyServerImpl extends UnicastRemoteObject implements MyServerInt {
-    int i = 0;
+    private IConnection dbConnection;
 
-    protected MyServerImpl() throws RemoteException {
+    protected MyServerImpl(IConnection dbConnection) throws RemoteException {
         super();
+        this.dbConnection = dbConnection;
     }
 
     @Override
-    public String getDescription(String text) throws RemoteException {
-        i++;
-        System.out.println("MyServerImpl.getDescription: " + text + " " + i);
-        return "getDescription: " + text + " " + i;
+    public List<String> findAll() throws RemoteException {
+        System.out.println("FindAll");
+        return dbConnection.findAll();
     }
 
     @Override
-    public Double add(Double firstValue, Double secondValue) throws RemoteException{
-        i++;
-        return firstValue+secondValue;
+    public List<String> findAllByName(String name) throws RemoteException {
+        System.out.println("FindByName(\""+name+"\")");
+        return dbConnection.findAllByName(name);
     }
 }

@@ -1,4 +1,7 @@
 
 H
-java:S2160"+Override the "equals" method in this class.(Š€®î8¨Ãÿ°Þ1
-G	java:S106"+Replace this use of System.out by a logger.(»—Ê’8«Ãÿ°Þ1
+java:S2160"+Override the "equals" method in this class.(Š€®î8º©—Ëà1
+K
+java:S1948".Make "dbConnection" transient or serializable.(Ù»•º8¼©—Ëà1
+L	java:S106"+Replace this use of System.out by a logger.(¤ñƒËÿÿÿÿÿ8¾©—Ëà1
+G	java:S106"+Replace this use of System.out by a logger.(Ñ¸ø¶8¾©—Ëà1
